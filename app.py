@@ -6,7 +6,7 @@ import numpy as np
 import pickle
 from nltk.stem import WordNetLemmatizer
 import nltk
-nltk.download('popular')
+# nltk.download('popular')
 lemmatizer = WordNetLemmatizer()
 
 model = load_model('model.h5')
@@ -78,7 +78,8 @@ app.static_folder = 'static'
 @app.route("/")
 def home():
     return render_template("home.html")
-    
+
+
 @app.route("/chatbot")
 def chatbot():
     return render_template("index.html")
