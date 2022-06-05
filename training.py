@@ -1,3 +1,4 @@
+from nltk.stem import WordNetLemmatizer
 import random
 from keras.optimizers import SGD
 from keras.layers import Dense, Activation, Dropout
@@ -7,7 +8,7 @@ import pickle
 import json
 import nltk
 nltk.download('omw-1.4')
-from nltk.stem import WordNetLemmatizer
+nltk.download('punkt')
 lemmatizer = WordNetLemmatizer()
 
 
