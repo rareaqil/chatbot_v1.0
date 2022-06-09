@@ -6,7 +6,7 @@ import numpy as np
 import pickle
 from nltk.stem import WordNetLemmatizer
 import nltk
-# nltk.download('popular')
+nltk.download('popular')
 lemmatizer = WordNetLemmatizer()
 
 model = load_model('model.h5')
