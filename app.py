@@ -1,11 +1,11 @@
-from flask import Flask, render_template, request
-import random
-import json
-from keras.models import load_model
-import numpy as np
 import pickle
-from nltk.stem import WordNetLemmatizer
+import numpy as np
+from keras.models import load_model
+import json
+import random
+from flask import Flask, render_template, request
 import nltk
+from nltk.stem import WordNetLemmatizer
 nltk.download('popular')
 lemmatizer = WordNetLemmatizer()
 
