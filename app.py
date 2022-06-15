@@ -64,7 +64,6 @@ def getResponse(ints, intents_json):
             break
         else:
             result = "Maaf kami tidak mengerti,coba keyword lainnya"
-            break
     return result
 
 
