@@ -317,7 +317,7 @@
       ]
     },
     {
-      "tag":"no answer",
+      "tag":"",
       "patterns":[" ",""],
       "responses":[
           "Maaf, Saya Tidak Mengerti"
