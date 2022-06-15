@@ -301,8 +301,8 @@
         ]
     },
     {
-      "tag":"contac",
-      "patterns":["contac", "kontak", "hubungi", "telp", "wa", "telepon", "nomorhp", "hp", "handphone", "no hp", "nomor hp", "ada no hp", "ada kontaknya"],
+      "tag":"contact",
+      "patterns":["contact", "kontak", "hubungi", "telp", "wa", "telepon", "nomorhp", "hp", "handphone", "no hp", "nomor hp", "ada no hp", "ada kontaknya"],
       "responses":[
         "<a href='https://wa.me/081234567890'> https://wa.me/081234567890 </a>"
       
@@ -317,10 +317,10 @@
       ]
     },
     {
-      "tag":"s",
-      "patterns":[" ",""],
+      "tag":"noanswear",
+      "patterns":[""],
       "responses":[
-          "Maaf, Saya Tidak Mengerti"
+          "Maaf kami tidak mengerti, coba ketik <b>help</b>"
       ]
     }
   ]
