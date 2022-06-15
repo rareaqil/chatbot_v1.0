@@ -1,5 +1,4 @@
 import pickle
-from unittest import result
 import numpy as np
 from keras.models import load_model
 import json
@@ -59,11 +58,10 @@ def predict_class(sentence, model):
 def getResponse(ints, intents_json):
     tag = ints[0]['intent']
     list_of_intents = intents_json['intents']
-    result = tag
-    # for i in list_of_intents:
-    # if(i['tag'] == tag):
-    # result = random.choice(i['responses'])
-    # break
+    for i in list_of_intents:
+        if(i['tag'] == tag):
+            result = random.choice(i['responses'])
+            break
     return result
 
 
