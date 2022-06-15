@@ -57,7 +57,7 @@ def predict_class(sentence, model):
 
 def getResponse(ints, intents_json):
     tag = ints[0]['intent']
-    if tag is None:
+    if tag is '':
         tag = 's'
     list_of_intents = intents_json['intents']
     for i in list_of_intents:
