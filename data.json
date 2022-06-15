@@ -191,9 +191,9 @@
     },
     {
       "tag":"chapadarti",
-      "patterns":["apa itu chapad", "arti chapad", "chapad itu apa", "chapad", "chapad ?", "chapad artinya","chapad?", "chapad artinya apa", "chapat"],
+      "patterns":["apa itu padangbana", "arti padangbana", "padangbana itu apa", "padangbana", "padangbana ?", "padangbana artinya","padangbana?", "padangbana artinya apa", "padang bana"],
       "responses":[
-        "ChaPad Artinya ChatBot Padang atau ChatBot Rumah <br> Makan Padang"
+        "Padang Bana Artinya 'Padang Bener' ChatBot Padang atau ChatBot Rumah <br> Makan Padang"
         ]
     },
 
@@ -318,7 +318,7 @@
     },
     {
       "tag":"no answer",
-      "patterns":[""],
+      "patterns":[" "],
       "responses":[
           "Maaf, Saya Tidak Mengerti"
       ]
