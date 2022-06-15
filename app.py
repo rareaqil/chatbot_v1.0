@@ -63,7 +63,7 @@ def getResponse(ints, intents_json):
             result = random.choice(i['responses'])
             break
         else:
-            result = tag
+            result = 'Maaf.....Saya Tidak Mengerti,Silahkan Coba Keyword Lainnya.'
     return result
 
 
